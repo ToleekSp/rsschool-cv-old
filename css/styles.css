@@ -54,10 +54,13 @@ ol > li {
 }
 
 .wrap {
-    display: flex;
     max-width: 1024px;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.main-wrap {
+    display: flex;
 }
 
 .label {
@@ -119,4 +122,19 @@ ol > li {
 
 .content__text {
     margin: 25px 0;
+}
+
+.footer {
+    background: #eeeeee;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; 
+    align-items: center;
+}
+
+.footer__logo {
+    width: 80px;
 }
